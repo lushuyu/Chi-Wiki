@@ -10,6 +10,7 @@ theme:
     accent: 'Blue'
   feature:
     tabs: true
+  language: 'zh'
   
 
 nav:
