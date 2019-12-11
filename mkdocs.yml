@@ -15,7 +15,7 @@ theme:
 nav:
   - 首页: index.md
   - 文言文: 
-      - 古代文化常识: gd/index.md
+      - 古代文化常识: 文言文/古代文化常识.md
 
 markdown_extensions:
   - admonition
