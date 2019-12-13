@@ -6,7 +6,7 @@ repo_url: 'https://github.com/lushuyu/Chi-Wiki'
 theme:
   name: material
   palette:
-    primary: 'White'
+    primary: 'Orange'
     accent: 'Blue'
   feature:
     tabs: true
@@ -15,6 +15,8 @@ theme:
 
 nav:
   - 首页: index.md
+  - 语文基础知识:
+      - 成语辨析: 语文基础知识/成语辨析.md
   - 文言文: 
       - 古代文化常识: 文言文/古代文化常识.md
 
