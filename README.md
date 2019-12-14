@@ -24,7 +24,7 @@
 
 ### 维护者列表
 
-![Lu Shuyu](https://avatars3.githubusercontent.com/u/27007632?s=460&v=4)
+![Lu Shuyu](https://avatars3.githubusercontent.com/u/27007632?s=100&v=1)
 
 ### 构建
 
