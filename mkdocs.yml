@@ -3,6 +3,9 @@ site_name: Chi-Wiki
 repo_name: 'lushuyu/Chi-Wiki'
 repo_url: 'https://github.com/lushuyu/Chi-Wiki'
 
+# Copyright
+copyright: 'Copyright &copy; 2019 Lu Shuyu'
+
 theme:
   name: material
   palette:
@@ -11,6 +14,9 @@ theme:
   feature:
     tabs: true
   language: 'zh'
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
   
 
 nav:
@@ -60,6 +66,12 @@ extra:
       link: https://github.com/lushuyu
   search:
     language: 'jp'
+  disqus: 'Chi-Wiki'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+  pagetime: 'on'
+  manifest: 'manifest.webmanifest'
+  githash: ''
+
 
 
 extra_javascript:
