@@ -56,11 +56,13 @@
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i,700|Fira+Mono&display=fallback">
+        <style>body,input{font-family:"Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Fira Mono","Courier New",Courier,monospace}</style>
       
     
     <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+      <link rel="manifest" href="manifest.webmanifest">
     
     
     
@@ -85,7 +87,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#_1" tabindex="1" class="md-skip">
+      <a href="#chi-wiki" tabindex="1" class="md-skip">
         跳转至
       </a>
     
@@ -289,9 +291,65 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        首页
+      </label>
+    
     <a href="." title="首页" class="md-nav__link md-nav__link--active">
       首页
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    介绍
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-color-palette" class="md-nav__link">
+    Material color palette 颜色主题
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary-colors" class="md-nav__link">
+    Primary colors 主色
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accent-colors" class="md-nav__link">
+    Accent colors 辅助色
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -433,6 +491,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    介绍
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-color-palette" class="md-nav__link">
+    Material color palette 颜色主题
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary-colors" class="md-nav__link">
+    Primary colors 主色
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accent-colors" class="md-nav__link">
+    Accent colors 辅助色
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -446,15 +547,88 @@
                   <a href="https://github.com/lushuyu/Chi-Wiki/edit/master/docs/index.md" title="编辑此页" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <!--
- * @Name: 
- * @Author: Lovely_XianShen
- * @Date: 2019-12-11 12:55:59
- * @Aqours!Sunshine!!
- -->
+                <h1 id="chi-wiki">Chi-Wiki<a class="headerlink" href="#chi-wiki" title="Permanent link">&para;</a></h1>
+<p><img alt="" src="images/logo_tran.png" /></p>
+<p>A programmer that isn't good at Chinese is not a good middle school student.</p>
+<h2 id="_1">介绍<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>对于不擅长语文的学生，面对它时经常不知所措，<del>被水淹没</del>。学习高中语文是一个长久的过程，它需要不断的积累、再积累，记忆、再记忆。</p>
+<p>本项目是一个Wiki，提供一些高中语文学习的小技巧、知识点。如果你平时课堂上没有记录很多笔记，或者笔记本过于混乱，可以将此项目作为你的语文笔记本。</p>
+<p>希望大家能在Coding的时候抽出时间来，好好学一学我们中华博大精深的语文吧！</p>
+<h2 id="material-color-palette">Material color palette 颜色主题<a class="headerlink" href="#material-color-palette" title="Permanent link">&para;</a></h2>
+<h3 id="primary-colors">Primary colors 主色<a class="headerlink" href="#primary-colors" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>默认为 <code>Orange</code> </p>
+</blockquote>
+<p>点击色块可更换主题的主色</p>
+<div id="color-button">
+<button data-md-color-primary="red">Red</button>
+<button data-md-color-primary="pink">Pink</button>
+<button data-md-color-primary="purple">Purple</button>
+<button data-md-color-primary="deep-purple">Deep Purple</button>
+<button data-md-color-primary="indigo">Indigo</button>
+<button data-md-color-primary="blue">Blue</button>
+<button data-md-color-primary="light-blue">Light Blue</button>
+<button data-md-color-primary="cyan">Cyan</button>
+<button data-md-color-primary="teal">Teal</button>
+<button data-md-color-primary="green">Green</button>
+<button data-md-color-primary="light-green">Light Green</button>
+<button data-md-color-primary="lime">Lime</button>
+<button data-md-color-primary="yellow">Yellow</button>
+<button data-md-color-primary="amber">Amber</button>
+<button data-md-color-primary="orange">Orange</button>
+<button data-md-color-primary="deep-orange">Deep Orange</button>
+<button data-md-color-primary="brown">Brown</button>
+<button data-md-color-primary="grey">Grey</button>
+<button data-md-color-primary="blue-grey">Blue Grey</button>
+<button data-md-color-primary="white">White</button>
+</div>
 
-<h1 id="_1">首页<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>Working</p>
+<script>
+  var buttons = document.querySelectorAll("button[data-md-color-primary]");
+  Array.prototype.forEach.call(buttons, function(button) {
+    button.addEventListener("click", function() {
+      document.body.dataset.mdColorPrimary = this.dataset.mdColorPrimary;
+      localStorage.setItem("data-md-color-primary",this.dataset.mdColorPrimary);
+    })
+  })
+</script>
+
+<h3 id="accent-colors">Accent colors 辅助色<a class="headerlink" href="#accent-colors" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>默认为 <code>Blue</code> </p>
+</blockquote>
+<p>点击色块更换主题的辅助色</p>
+<div id="color-button">
+<button data-md-color-accent="red">Red</button>
+<button data-md-color-accent="pink">Pink</button>
+<button data-md-color-accent="purple">Purple</button>
+<button data-md-color-accent="deep-purple">Deep Purple</button>
+<button data-md-color-accent="indigo">Indigo</button>
+<button data-md-color-accent="blue">Blue</button>
+<button data-md-color-accent="light-blue">Light Blue</button>
+<button data-md-color-accent="cyan">Cyan</button>
+<button data-md-color-accent="teal">Teal</button>
+<button data-md-color-accent="green">Green</button>
+<button data-md-color-accent="light-green">Light Green</button>
+<button data-md-color-accent="lime">Lime</button>
+<button data-md-color-accent="yellow">Yellow</button>
+<button data-md-color-accent="amber">Amber</button>
+<button data-md-color-accent="orange">Orange</button>
+<button data-md-color-accent="deep-orange">Deep Orange</button>
+</div>
+
+<script>
+  var buttons = document.querySelectorAll("button[data-md-color-accent]");
+  Array.prototype.forEach.call(buttons, function(button) {
+    button.addEventListener("click", function() {
+      document.body.dataset.mdColorAccent = this.dataset.mdColorAccent;
+      localStorage.setItem("data-md-color-accent",this.dataset.mdColorAccent);
+    })
+  })
+
+  // #758
+  document.getElementsByClassName('md-nav__title')[1].click()
+</script>
                 
                   
                 
@@ -512,6 +686,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 Lu Shuyu
+          </div>
         
         powered by
         <a href="https://www.mkdocs.org">MkDocs</a>
