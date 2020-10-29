@@ -1,6 +1,6 @@
 # Chi-Wiki
 
- A programmer that isn't good at Chinese is not a good middle school student.
+A programmer who is not good at Chinese is not a advanced middle school student. 
 
 ## 介绍
 
