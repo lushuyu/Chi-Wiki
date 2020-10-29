@@ -6,13 +6,13 @@ A programmer who is not good at Chinese is not a advanced middle school student.
 
 对于不擅长语文的学生，面对它时经常不知所措，~~被水淹没~~。学习高中语文是一个长久的过程，它需要不断的积累、再积累，记忆、再记忆。
 
-本项目是一个Wiki，提供一些高中语文学习的小技巧、知识点。如果你平时课堂上没有记录很多笔记，或者笔记本过于混乱，可以将此项目作为你的语文笔记本。
+本项目是一个 Wiki，提供一些高中语文学习的小技巧、知识点。如果你平时课堂上没有记录很多笔记，或者笔记本过于混乱，可以将此项目作为你的语文笔记本。
 
-希望大家能在Coding的时候抽出时间来，好好学一学我们中华博大精深的语文吧！
+希望大家能在 Coding 的时候抽出时间来，好好学一学我们中华博大精深的语文吧！
 
 ## 贡献
 
-目前此项目主要的维护者为Lu Shuyu，想做出贡献的同学可以尽情Pull Request，也欢迎大家把自己学习语文的经验分享出来。
+目前此项目主要的维护者为 [Lu Shuyu](https://github.com/lushuyu)，想做出贡献的同学可以尽情 Pull Request ，也欢迎大家把自己学习语文的经验分享出来。
 
 ### Pull Request 注意事项
 
@@ -28,16 +28,20 @@ A programmer who is not good at Chinese is not a advanced middle school student.
 
 ### 构建
 
-本项目使用Mkdocs搭建，采用material主题。
+本项目使用 Mkdocs 搭建，采用 material 主题。
 
 ### 更新日志
 
+2020/10/29
+
+- Readme 格式修改
+
 2019/12/17
 
-- 编写了index页面，加上了一个~~巨丑无比~~的logo
+- 编写了 index 页面，加上了一个~~巨丑无比~~的 logo
 
 2019/12/15
 
 - 添加「学习经验」、「文言虚词」板块。
-- 修复一些head的bug。
+- 修复一些 head 的 bug。
 
